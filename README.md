@@ -1,48 +1,65 @@
-# E-Commerce Product Performance Dashboard
+# E-commerce Product Performance Dashboard (Power BI)
 
-## Overview
+## Project Overview
+This project focuses on analyzing product performance within an e-commerce business using Power BI.  
+The goal is to identify which products and categories drive revenue and understand overall product sales trends.
 
-This project analyzes product sales performance in an e-commerce dataset using Power BI. 
-The dashboard provides insights into revenue, product performance, category contribution, and monthly sales trends to support data-driven decision making.
+An interactive Power BI dashboard was created to visualize key performance indicators and product-level insights.
 
-## Dataset
+---
 
-The analysis uses two tables.
+## Business Questions
 
-### Orders
-- order_id 
-- order_date 
-- product_id 
-- quantity 
-- sales_amount 
+The analysis aims to answer the following:
 
-### Products
-- product_id 
-- product_name 
-- category 
-- sub_category 
-- price 
+- Which products generate the highest revenue?
+- Which product categories perform best?
+- How does product performance change over time?
+- Which products contribute the most to total sales?
 
-These tables are connected using **product_id** in a one-to-many relationship.
-
-## Key Metrics
-- Total Revenue 
-- Total Orders 
-- Total Quantity Sold 
-- Average Order Value 
-
-## Dashboard Insights
-
-The dashboard helps analyze:
-
-- Top performing products by revenue 
-- Revenue contribution by product category 
-- Monthly sales trends 
-- Overall business performance using KPI indicators 
-
-Interactive slicers allow filtering by **category** and **date** for deeper analysis.
+---
 
 ## Tools Used
-- Power BI 
-- DAX 
-- Data Modeling 
+
+**Power BI**
+- Data modeling
+- Data relationships
+- DAX measures
+- Interactive dashboards
+
+---
+
+## Dashboard Features
+
+The dashboard includes:
+
+- Total Revenue KPI
+- Product Category Performance
+- Product Sales Comparison
+- Sales Trend Over Time
+- Interactive filters for deeper exploration
+
+---
+
+## Key Insights
+
+- Certain product categories consistently outperform others in revenue generation.
+- A small group of products contribute a large share of overall sales.
+- Product sales trends help identify demand patterns across time periods.
+- Data visualization makes it easier to identify top-performing and underperforming products.
+
+---
+
+## Skills Demonstrated
+
+- Power BI Data Modeling
+- Dashboard Design
+- Data Visualization
+- Business KPI Analysis
+- Interactive Reporting
+
+---
+
+## Conclusion
+
+This project demonstrates how Power BI can be used to analyze e-commerce product performance and create interactive dashboards that help businesses monitor sales and identify growth opportunities.
